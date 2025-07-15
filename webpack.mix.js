@@ -11,7 +11,22 @@ const mix = require('laravel-mix');
  |
  */
 
+
 mix.js('resources/js/app.js', 'public/js').react()
     .postCss('resources/css/app.css', 'public/css', [
         //
-    ]);
+    ])
+    .sass('resources/sass/app.scss', 'public/css')
+    .webpackConfig({
+       resolve: {
+           extensions: ['.js', '.json', '.vue'],
+       },
+        plugins: [],
+   });
+
+
+// mix.webpackConfig({
+//   externals: {
+//     jquery: 'jQuery',
+//   }
+// });

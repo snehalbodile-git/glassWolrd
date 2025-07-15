@@ -1,0 +1,19 @@
+Intergarte react with laravel
+
+https://adevait.com/laravel/using-laravel-with-react-js
+
+	-composer create-project --prefer-dist laravel/laravel:^8.0 guide-to-laravel-and-react
+	-npm install
+	-npm run dev
+	-npm install --save-dev react react-dom
+
+
+Instead of executing the npm run dev command, again and again, you can execute the npm run watch command, which keeps an eye on your files and compiles them automatically on change.
+bnlpb2186
+
+
+
+
+Start project 
+
+php artisan serve
