@@ -9,5 +9,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 // React Components
-require('./components/HelloReact');
-require('./components/Counter')
+// require('./components/HelloReact');
+// require('./components/Counter')
+require("./components/layout/Home");
+
+require 
