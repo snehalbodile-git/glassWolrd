@@ -33,7 +33,7 @@ const appRouter = createBrowserRouter([
         children:[
             {
                 path:"/",
-                element:<Body/>
+                element:<AddCustomer/>
             },
             {
                 path:"/customer",
