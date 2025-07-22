@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const Sidebar = () =>{
     return(
         <>
@@ -33,7 +34,7 @@ const Sidebar = () =>{
               data-accordion="false"
               id="navigation"
             >
-              <li className="nav-item menu-open">
+              {/* <li className="nav-item menu-open">
                 <a href="#" className="nav-link active">
                   <i className="nav-icon bi bi-speedometer"></i>
                   <p>
@@ -61,14 +62,18 @@ const Sidebar = () =>{
                     </a>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <a href="./generate/theme.html" className="nav-link">
+                <Link to="/customer" className="nav-link">
                   <i className="nav-icon bi bi-palette"></i>
-                  <p>Theme Generate</p>
-                </a>
+                  <p>Customer</p>
+                </Link>
+                {/* <a href="#" className="nav-link">
+                  <i className="nav-icon bi bi-palette"></i>
+                  <p>Customer</p>
+                </a> */}
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a href="#" className="nav-link">
                   <i className="nav-icon bi bi-box-seam-fill"></i>
                   <p>
@@ -462,7 +467,7 @@ const Sidebar = () =>{
                   <i className="nav-icon bi bi-circle text-info"></i>
                   <p>Informational</p>
                 </a>
-              </li>
+              </li> */}
             </ul>
             {/* <!--end::Sidebar Menu--> */}
           </nav>

@@ -4,3 +4,13 @@
     - Sidebar
     - Footer 
     - Body
+
+
+Customer
+    -Customer list
+    - Add Customer 
+         First Name ,Last Name
+         Phone No 
+         Email Id 
+         Address 
+         Other Note 
